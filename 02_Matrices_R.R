@@ -1,12 +1,10 @@
 # video 06 - matrices
-
 # Objetivo: estudiar qué es una matriz en R.
 # ---------------
 # En este ejercicio vamos a:
 # 1. Crear matrices en un script
 # 2. Realizar opraciones aritméticas con matrices
 # 3. Seleccionar elementos en una matriz
-
 
 #####################################
 # práctica 1: creando matrices en R #
@@ -68,3 +66,4 @@ peliculas["2012",]
 # seleccionar una columna
 peliculas[,2]
 peliculas[,"Disney"]
+
