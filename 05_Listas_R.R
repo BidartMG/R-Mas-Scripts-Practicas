@@ -37,7 +37,6 @@ peliculas_df <- data.frame(nombre,
 # crear lista en R
 lista_curso <- list(vector_titulos,matriz_peliculas)
 
-
 # mostrar lista
 lista_curso
 
