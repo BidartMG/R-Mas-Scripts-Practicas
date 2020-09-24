@@ -28,11 +28,24 @@ library(ggplot2)
 
 # hacer un histograma en ggplot2
 ggplot(data = mtcars,
-       mapping = aes())
+       mapping = aes(x = hp)) +
+        geom_histogram(bins = 9)
 
 
 # haciendo más cosas interesantes
-
+ggplot(data = mtcars,
+       mapping = aes(x = hp,
+                     fill = factor(vs))) +
+        geom_histogram(bins = 9,
+                       position = 'identity',
+                       alpha = 0.8) +
+        labs(title = 'Título',
+             fill = 'vs motor',
+             x = 'Caballos de fuerza',
+             y = 'Conteos',
+             subtitle = 'Subtítulo',
+             caption = 'Fuente de los datos')
+        
 
 
 
